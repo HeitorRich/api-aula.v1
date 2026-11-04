@@ -35,7 +35,7 @@ function listar(req, res) {
         });
     }
 }
-
+ 
 function buscarId(req, res) {
     try {
         console.log("1 - CONTROLLER recebeu", req.params.id);
