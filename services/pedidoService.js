@@ -1,7 +1,6 @@
 
 const pedidosRepository = [];
 
-
 function validar(dados) {
     if (!dados || typeof dados !== "object") {
         return "Dados do pedido inválidos";

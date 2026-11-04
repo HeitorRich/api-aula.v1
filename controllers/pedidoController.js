@@ -86,5 +86,4 @@ function editar(req, res) {
         });
     }
 }
-
 module.exports = { criar, buscarId, listar, editar };
